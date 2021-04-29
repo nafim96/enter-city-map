@@ -1,0 +1,74 @@
+.pick-form {
+  border: 1px solid gray;
+  width: 70%;
+  height: 300px;
+  background-color: #dbdbdb;
+  color: #ff1606;
+  border-radius: 10px;
+}
+.destination-container {
+  display: flex;
+}
+.pick-box {
+  display: flex;
+  justify-content: center;
+}
+.pick-box input {
+}
+.search-value{
+  border: 1px solid red;
+  background-color: rgb(255, 113, 61);
+  color: #dbdbdb;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 10px;
+  height: 180px;
+  align-items: start;
+}
+.google-map-code{
+  margin: 10px auto;
+  
+}
+.conditional-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  width: 90%;
+  background-color: #ffffff;
+  height: 110px;
+  margin: 10px auto;
+  border-radius: 10px;
+  color: black;
+}
+.conditional-detail img {
+  width: 25%;
+  border-radius: 5px;
+}
+.main-search-container {
+  background-color: grey;
+  width: 38%;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .destination-container {
+    flex-direction: column;
+  }
+  .pick-box {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+  .main-search-container {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .pick-form {
+    width: 80%;
+  }
+  .main-search-container {
+    width: 70%;
+  }
+}

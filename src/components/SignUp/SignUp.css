@@ -1,0 +1,44 @@
+.sign-up-style {
+  border: 1px solid white;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  background-color: thistle;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+}
+.sign-up-height{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
+}
+.sign-up-style input {
+  margin: 10px auto;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .sign-up-style {
+    width: 45%;
+  }
+  .sign-up-style input {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .sign-up-style {
+      margin-top: 30px;
+    width: 80%;
+  }
+  .sign-up-style input {
+    width: 70%;
+  }
+}
